@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7400cc"
+    tools:context=".Jenkins">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/jenkin_goblin"
+                    android:layout_width="227dp"
+                    android:layout_height="208dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="24dp"
+                    android:contentDescription="jenk"
+                    app:srcCompat="@drawable/jenkin_goblin" />
+
+                <TextView
+                    android:id="@+id/jenkin_intro"
+                    android:layout_width="290dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/jenkin_intro"
+                    android:textColor="#58CC00"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/jenkin_appearance"
+                    android:layout_width="347dp"
+                    android:layout_height="99dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="24dp"
+                    android:text="@string/jenkin_appearance"
+                    android:textColor="#58CC00"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/jenkin_society"
+                    android:layout_width="361dp"
+                    android:layout_height="159dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/jenkin_society"
+                    android:textColor="#58CC00"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/jenkin_ecology"
+                    android:layout_width="355dp"
+                    android:layout_height="92dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="24dp"
+                    android:text="@string/jenkin_ecology"
+                    android:textColor="#58CC00"
+                    android:textSize="18sp" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

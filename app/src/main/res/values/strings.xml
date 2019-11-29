@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Goblin Finder</string>
+    <string name="cotterell_intro">You have found a Julatrell Goblin!</string>
+    <string name="cotterell_appearance">
+        Appearance: These goblins have adapted to take on human form through many years of evolution. What tells them apart from normal humans are the following. Those who change into the female form will usually have a derp like default face. Males tend to be blind and develop very small arms.
+    </string>
+    <string name="cotterell_society">
+        Society: Given they are shapeshifters, it’s hard to tell how they interact with their own race and how they live day by day. What we do know is that these creatures tend to live in colder climates and have been sighted in the New England area of the United States of America in states like New York, Virginia and Maine.
+    </string>
+    <string name="cotterell_ecology">
+        Ecology: It is assumed the Julatrells live their days like normal humans so we have no data of what they do on a daily basis.
+    </string>
+    <string name="jenkin_intro">You have found a Jenkfru Goblin!</string>
+    <string name="jenkin_appearance">
+        Appearance: Cloaking themselves as a pudgy human in the prime of their life, the jenkfru goblin roams the lands of New York for the finest of jenk items.
+    </string>
+    <string name="jenkin_society">
+        Society: Given they are shapeshifters, it’s hard to tell how they interact with their own race and how they live day by day. What we do know is these goblins tend to live in colder climates and have been sighted in the New England area of the United States of America in states like New York
+    </string>
+    <string name="jenkin_ecology">
+        Ecology: It is assumed the Jenkfrus live their days like humans so we have no data of what they do on a daily basis.
+    </string>
+</resources>
