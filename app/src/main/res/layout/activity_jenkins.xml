@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#7400cc"
+    android:background="@color/background"
     tools:context=".Jenkins">
 
     <LinearLayout
@@ -40,7 +40,7 @@
                     android:layout_gravity="center"
                     android:layout_marginTop="20dp"
                     android:text="@string/jenkin_intro"
-                    android:textColor="#58CC00"
+                    android:textColor="@color/stringColor"
                     android:textSize="18sp" />
 
                 <TextView
@@ -50,7 +50,7 @@
                     android:layout_gravity="center"
                     android:layout_marginTop="24dp"
                     android:text="@string/jenkin_appearance"
-                    android:textColor="#58CC00"
+                    android:textColor="@color/stringColor"
                     android:textSize="18sp" />
 
                 <TextView
@@ -60,7 +60,7 @@
                     android:layout_gravity="center"
                     android:layout_marginTop="20dp"
                     android:text="@string/jenkin_society"
-                    android:textColor="#58CC00"
+                    android:textColor="@color/stringColor"
                     android:textSize="18sp" />
 
                 <TextView
@@ -70,8 +70,16 @@
                     android:layout_gravity="center"
                     android:layout_marginTop="24dp"
                     android:text="@string/jenkin_ecology"
-                    android:textColor="#58CC00"
+                    android:textColor="@color/stringColor"
                     android:textSize="18sp" />
+
+                <Button
+                    android:id="@+id/backBtn"
+                    android:layout_width="356dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@color/btnColor"
+                    android:text="@string/btnString" />
             </LinearLayout>
         </ScrollView>
     </LinearLayout>
