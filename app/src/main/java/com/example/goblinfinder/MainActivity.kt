@@ -69,8 +69,8 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun displayGoblins (){
-         val random = (3..10).random()
-
+        //val random = (11..20).random()
+        val random = 2
         if (random == 1 ) {
             val cotterellPage = Intent(this, CotterellActivity::class.java)
             startActivity(cotterellPage)
@@ -79,7 +79,14 @@ class MainActivity : AppCompatActivity() {
             val jenkinsPage = Intent(this, Jenkins::class.java)
             startActivity(jenkinsPage)
         }
-        
+        else if (random in 3..10){
+            val bakemonoPage = Intent(this, bakemono::class.java)
+            startActivity(bakemonoPage)
+        }
+        else if (random in 11..20){
+            val batiriPage = Intent(this, batiri::class.java)
+            startActivity(batiriPage)
+        }
     }
 
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
