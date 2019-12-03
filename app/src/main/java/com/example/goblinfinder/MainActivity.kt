@@ -69,8 +69,8 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun displayGoblins (){
-        //val random = (11..20).random()
-        val random = 2
+        val random = (21..30).random()
+
         if (random == 1 ) {
             val cotterellPage = Intent(this, CotterellActivity::class.java)
             startActivity(cotterellPage)
@@ -86,6 +86,10 @@ class MainActivity : AppCompatActivity() {
         else if (random in 11..20){
             val batiriPage = Intent(this, batiri::class.java)
             startActivity(batiriPage)
+        }
+        else if (random in 21..30){
+            val dekanterPage = Intent(this, dekanter::class.java)
+            startActivity(dekanterPage)
         }
     }
 
