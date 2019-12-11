@@ -5,6 +5,7 @@
     <color name="colorAccent">#D81B60</color>
     <color name="background">#7400cc</color>
     <color name="pictureHolderColor">#64b5f6</color>
+    <color name="pictureBackground">#ffffff</color>
     <color name="btnColor">#64b5f6</color>
     <color name="stringColor">#58CC00</color>
 </resources>

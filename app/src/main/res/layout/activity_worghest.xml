@@ -5,81 +5,72 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/background"
-    tools:context=".CotterellActivity">
+    tools:context=".worghest">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent">
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="622dp">
+            android:layout_height="match_parent">
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:layout_gravity="center">
+                android:orientation="vertical" >
 
                 <ImageView
-                    android:id="@+id/cotterell_goblin"
-                    android:layout_width="214dp"
-                    android:layout_height="168dp"
+                    android:id="@+id/worghest"
+                    android:layout_width="193dp"
+                    android:layout_height="256dp"
                     android:layout_gravity="center"
-                    app:srcCompat="@drawable/cotterell_goblin" />
+                    app:srcCompat="@drawable/worghest" />
 
                 <TextView
-                    android:id="@+id/cotterell_intro"
-                    android:layout_width="wrap_content"
+                    android:id="@+id/worghest_intro"
+                    android:layout_width="236dp"
+                    android:layout_height="34dp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="20dp"
+                    android:text="@string/worghest_intro"
+                    android:textColor="@color/stringColor"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/worghest_appearance"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_marginBottom="20dp"
-                    android:text="@string/cotterell_intro"
+                    android:text="@string/worghest_appearance"
                     android:textColor="@color/stringColor"
                     android:textSize="18sp" />
 
                 <TextView
-                    android:id="@+id/cotterell_appearance"
+                    android:id="@+id/worghest_ecology"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_gravity="center"
                     android:layout_marginBottom="20dp"
-                    android:text="@string/cotterell_appearance"
-                    android:textColor="@color/stringColor"
-                    android:textSize="18sp" />
-
-                <TextView
-                    android:id="@+id/cotterell_society"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="20dp"
-                    android:text="@string/cotterell_society"
-                    android:textColor="@color/stringColor"
-                    android:textSize="18sp" />
-
-                <TextView
-                    android:id="@+id/cotterell_ecology"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="20dp"
-                    android:text="@string/cotterell_ecology"
+                    android:text="@string/worghest_ecology"
                     android:textColor="@color/stringColor"
                     android:textSize="18sp" />
 
                 <Button
                     android:id="@+id/backBtn"
-                    android:layout_width="254dp"
+                    android:layout_width="352dp"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
+                    android:layout_marginBottom="20dp"
                     android:background="@color/btnColor"
-                    android:text="@string/btnString" />
-
+                    android:text="@string/btnString"
+                    android:textSize="24sp" />
             </LinearLayout>
         </ScrollView>
     </LinearLayout>
-
 </androidx.constraintlayout.widget.ConstraintLayout>

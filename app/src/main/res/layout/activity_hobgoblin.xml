@@ -77,8 +77,9 @@
                     android:layout_width="254dp"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
+                    android:background="@color/btnColor"
                     android:text="@string/btnString"
-                    android:background="@color/btnColor" />
+                    android:textSize="24sp" />
             </LinearLayout>
         </ScrollView>
     </LinearLayout>

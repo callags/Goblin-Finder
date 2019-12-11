@@ -11,10 +11,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".batiri"></activity>
+        <activity android:name=".forestkith"></activity>
+        <activity android:name=".worghest" />
+        <activity android:name=".verdan" />
+        <activity android:name=".koalinth" />
+        <activity android:name=".bugbear" />
+        <activity android:name=".hobgoblin" />
+        <activity android:name=".nilbog" />
+        <activity android:name=".dekanter" />
+        <activity android:name=".batiri" />
         <activity android:name=".bakemono" />
-        <activity android:name=".Jenkins" />
-        <activity android:name=".CotterellActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

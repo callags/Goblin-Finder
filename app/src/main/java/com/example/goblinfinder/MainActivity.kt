@@ -69,17 +69,9 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun displayGoblins (){
-        val random = (21..30).random()
+        val random = (1..100).random()
 
-        if (random == 1 ) {
-            val cotterellPage = Intent(this, CotterellActivity::class.java)
-            startActivity(cotterellPage)
-        }
-        else if (random == 2 ){
-            val jenkinsPage = Intent(this, Jenkins::class.java)
-            startActivity(jenkinsPage)
-        }
-        else if (random in 3..10){
+        if (random in 1..10){
             val bakemonoPage = Intent(this, bakemono::class.java)
             startActivity(bakemonoPage)
         }
@@ -90,6 +82,34 @@ class MainActivity : AppCompatActivity() {
         else if (random in 21..30){
             val dekanterPage = Intent(this, dekanter::class.java)
             startActivity(dekanterPage)
+        }
+        else if (random in 31..40) {
+            val nilbogPage = Intent (this, nilbog::class.java)
+            startActivity(nilbogPage)
+        }
+        else if (random in 41..50) {
+            val hobgoblinPage = Intent (this, hobgoblin::class.java)
+            startActivity(hobgoblinPage)
+        }
+        else if (random in 51..60) {
+            val bugbearPage = Intent (this, bugbear::class.java)
+            startActivity(bugbearPage)
+        }
+        else if (random in 61..70) {
+            val koalinthPage = Intent (this, koalinth::class.java)
+            startActivity(koalinthPage)
+        }
+        else if (random in 71..80) {
+            val verdanPage = Intent (this, verdan::class.java)
+            startActivity(verdanPage)
+        }
+        else if (random in 81..90) {
+            val worghestPage = Intent (this, worghest::class.java)
+            startActivity(worghestPage)
+        }
+        else if (random in 91..100) {
+            val forestkithPage = Intent (this, forestkith::class.java)
+            startActivity(forestkithPage)
         }
     }
 

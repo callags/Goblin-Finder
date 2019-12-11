@@ -1,27 +1,7 @@
 <resources>
     <string name="app_name">Goblin Finder</string>
-    <string name="btnString">Back</string>
-    <string name="cotterell_intro">You have found a Julatrell Goblin!</string>
-    <string name="cotterell_appearance">
-        Appearance: These goblins have adapted to take on human form through many years of evolution. What tells them apart from normal humans are the following. Those who change into the female form will usually have a derp like default face. Males tend to be blind and develop very small arms.
-    </string>
-    <string name="cotterell_society">
-        Society: Given they are shapeshifters, it’s hard to tell how they interact with their own race and how they live day by day. What we do know is that these creatures tend to live in colder climates and have been sighted in the New England area of the United States of America in states like New York, Virginia and Maine.
-    </string>
-    <string name="cotterell_ecology">
-        Ecology: It is assumed the Julatrells live their days like normal humans so we have no data of what they do on a daily basis.
-    </string>
-    <string name="jenkin_intro">You have found a Jenkfru Goblin!</string>
-    <string name="jenkin_appearance">
-        Appearance: Cloaking themselves as a pudgy human in the prime of their life, the jenkfru goblin roams the lands of New York for the finest of jenk items.
-    </string>
-    <string name="jenkin_society">
-        Society: Given they are shapeshifters, it’s hard to tell how they interact with their own race and how they live day by day. What we do know is these goblins tend to live in colder climates and have been sighted in the New England area of the United States of America in states like New York
-    </string>
-    <string name="jenkin_ecology">
-        Ecology: It is assumed the Jenkfrus live their days like humans so we have no data of what they do on a daily basis.
-    </string>
-    <string name="bakemono_intro">You have found a Bakemono Goblin!</string>
+    <string name="btnString">Home</string>
+    <string name="bakemono_intro">You have found a Bakemono!</string>
     <string name="bakemono_appearance_pt.1">
         Bakemono live in tribes of 20 and 80 persons, so if you see one, there probably more around. These large communities are ruled by a sacred shaman known as an Oni. Despite this sense of unity, Bakemono lack the loyalty to pledge themselves to one clan and would often leave and join other factions impulsively. Like most goblins, internecine combat was common, and when not fighting among themselves, they will conduct raids on nearby human settlements or attack travelers.
     </string>
@@ -31,7 +11,7 @@
     <string name="bakemono_ecology">
         Being the natural born savages they are, Bakemono are often seen as a ruthless animals who see anything that moves as a potential threat. Over the years they have treated mankind with such animosity that they will attack any human settlement with no hesitation or forethought. They’re dominantly carnivores as they like to eat their meat raw.
     </string>
-    <string name="batiri_intro">You have found a Batiri Goblin</string>
+    <string name="batiri_intro">You have found a Batiri!</string>
     <string name="batiri_appearance">
         Dwelling in primarily jungle environments, their green skin allows them to camouflage in their natural environment. They will often be dressed in rags as their more prestigious warriors or chieftains display themselves in dinosaur-hide breastplates and helmets.
     </string>
@@ -41,5 +21,81 @@
     <string name="batiri_ecology">
         Batiri are nocturnal creatures by instinct and hunt in the middle of the night. They use the secrecy and eerie atmosphere of the jungle to stalk their prey. While most use crude shortbows and poorly made spears, some of their most experienced warriors will wield stolen weapons from human settlements or fallen adventurers. Some have claimed the Batiri are cannibals since they will eat the flesh of any animal they come across. However, this is not the case as it’s considered immoral for Batiri to eat their own kind, even if they hailed from an enemy clan. Committing such an act would be punished by death. 
     </string>
-
+    <string name="dekanter_intro">You have found a Dekanter!</string>
+    <string name="dekanter_appearance">
+        Years of genetic mutations and artificial elixirs led to the creation of the Dekanter goblins. These creatures are considered to be more aggressive than the average goblin. Several accounts of sightings by adventurers have claimed these beasts have a stockier build than most variants of their species. Some have said the Dekanter will grow their black hair below shoulders with an orange-red skin color underneath. Perhaps one of their most defining features is the rhinoceros-like horn just above their mouths.
+    </string>
+    <string name="dekanter_society">
+        Months of research and study has told us that these goblins worship a divine entity known as the Beast Lord in a mountain called the Grey Mountains. They show their religious devotion by patrolling the depths of the sierra in groups up to 40 at a time, with the help of Gargoyles.
+    </string>
+    <string name="dekanter_ecology">
+        Dekanter goblins prefer the dark depths of a mountain than the outside forests or jungles of their cousins. The amount of time they’ve spent in the underdepths has gained them the ability to withstand the cold at extreme temperatures. Often times these goblins will attack anyone they deem a threat to their lord. However, they have been well-known amongst their species to hesitate if their “enemy” is a superior force.
+    </string>
+    <string name="nilbog_intro">You have found a Nilbog!</string>
+    <string name="nilbog_appearance">
+        These types of goblins are often dressed in finer clothes than their brethren, often cackling with a smirky grin on their face. Nilbogs will often be seen traveling the outdoors without a care in the world.
+    </string>
+    <string name="nilbog_society">
+        In a realm of constant war and fear amongst their people, it may seem odd to see these shaman-like goblins with an upbeat attitude. This is due to the fear of Nilbogs amid their society, primarily by the mystical powers they possess and how they wield it. Unlike their combat ready counterparts, a Nilbog would rather heal itself than try to stab another living thing. Those who make the fatal error of attacking a Nilbog may fall to the influence of Nilbogism. What happens is that the unfortunate individual will inherit magical powers that can affect the behavior of nearby goblins.
+    </string>
+    <string name="nilbog_ecology">
+        The fear of being enchanted by this unknown power has caused these goblins to gain a status of immunity by their more ferocious members. With these labels you may think a Nilbog would go on a killing rampage as they strike fear in the hearts of their people. However, most would rather trick fellows goblins to do their bidding, than maim them. Outside of harassing their own race, there have been occurrences where they have tricked human travelers to hand over all of their belongings with a mere flick of the wrist.
+    </string>
+    <string name="hobgoblin_intro">You have found a Hobgoblin!</string>
+    <string name="hobgoblin_appearance">
+        Hobgoblins will reach heights slightly above the average human. The colors of their skin fluctuates between orange to reddish-brown. They will often have their hair draped over their mid back in pigments of dark brown, gray, orange and red. These goblins will usually be dressed in fine clothes or armor as the warlords of their community.
+    </string>
+    <string name="hobgoblin_society">
+        As mentioned earlier, a Hobgoblin is often seen as the leaders of goblin tribes. Scholars have claimed they have lead to the creation of Bugbears and Goblins from years of breeding different creatures into the world of slavery. Those who have reached the position of warlord are the ones who are thought of as the bravest and strongest of their kind. To keep such a prestigious title in tact, their tribe’s reputation and military status is held in very high regard among the Hobgoblins. These social conditions have caused many of the tensions of war within goblin society.
+    </string>
+    <string name="hobgoblin_ecology">
+        The violent and brutal emotions of the Hobgoblins has lead to the constant power struggle shared among these warlords. Due to their actions, goblin society is under a consistent turbulence of mayhem and destruction.
+    </string>
+    <string name="bugbear_intro">You have found a Bugbear!</string>
+    <string name="bugbear_appearance">
+        From afar you wouldn’t be completely wrong to think this creature was a wolverine instead of a goblinoid. Draped with fur from head to toe with a massive frame, claws for hands and standing at an average height of 7ft tall, the Bugbear is not a beast you don’t want to make angry. While you could easily outsmart these dim-witted creatures in a game of chess, fighting a Bugbear should only be attempted the most courageous, or suicidal, of your party.
+    </string>
+    <string name="bugbear_society">
+        Violent tempers and a disregard for diplomacy makes reasoning with them a lost cause. They will often be in tribes made up of goblins, since a party of primarily Hobgoblins and Bugbears are often killed by other factions as a general precaution. Although there are some smaller independent Bugbear tribes out in the wild, most have come to their senses that staying with goblins is safer for their race as a whole.
+    </string>
+    <string name="bugbear_ecology">
+        These hairy beasts are used as the backbone of a goblin tribe doing the back breaking labor and serving as soldiers in times of conflict. Most of the negotiating and talks are done by their Hobgoblin warlords as a Bugbear would rather be pointed towards the approaching enemy, than waste their time in day to day politics.
+    </string>
+    <string name="koalinth_intro">You have found a Koalinth!</string>
+    <string name="koalinth_appearance">
+        Green scaly flesh with moss covered shoulders, the Koalinth inhabit large bodies of water for prey and shelter. They share the same bone structure of Hobgoblins, with the exception of webbed hands and feet.
+    </string>
+    <string name="koalinth_society">
+        These creatures share the mindset of their Hobgoblin cousins as their society is very similar in nature. Each tribe is lead by local chiefs who follow one prestigious shaman. Their lairs are established in grottos, underground sea caverns, and shallow freshwater caves.
+    </string>
+    <string name="koalinth_ecology">
+        Acting like their land dwellings in combat, Koalinths will often raid human coastal settlements. They’ve been known to use nets to capture important figures for ransom or leverage over neighboring tribes.
+    </string>
+    <string name="verdan_intro">You have found a Verdan!</string>
+    <string name="verdan_appearance">
+        After a series of mutations between elves and goblins, the Verdan race was created. Their young are often thought of as Goblins, while the older of this faction are considered to be deformed elves by the outside world. Possessing the pointed ears of an Elf and the bulbous nose of Goblins, the Verdan people will come in different shades of green from pale white to jet black.
+    </string>
+    <string name="verdan_society">
+        While they share some common traits with their more violent cousins like the Bugbear or the Hobgoblin. They use their internal ferocity to defend themselves from any forces of oppression as they approve of freedom and expression of diversity; while their distant relatives would rather kill each other and enslave the defeated.
+    </string>
+    <string name="verdan_ecology">
+        These goblins will often live their entire lives on the road, accepting any culture they come across. They’ve been known to change their names to be more accommodating to any group they come in contact with. Despite the Verdan being very heart warming and trustworthy to any peaceful communities, their people don’t have a sense of belonging which is a major factor in their nomadic lifestyle. As a result, they will not stay in one place for very long.
+    </string>
+    <string name="worghest_intro">You have found a Worghest!</string>
+    <string name="worghest_appearance">
+        Being the crossbreed between Goblins and Barghests, Worghests often have orange eyes and blue hair. They’re often descibed to have a demented humanoid form with fanged teeth of their wolf cousins and the facial features of their green skinned counterparts.
+    </string>
+    <string name="worghest_ecology">
+        These shape shifting beasts have commanded the angst and appreciation of Goblin society, as Worghests prefer the freedom of the hunt rather than being caught in the ever changing hierarchy of power present in Goblin society.
+    </string>
+    <string name="forestkith_intro">You have found a Forestkith!</string>
+    <string name="forestkith_appearance">
+        Thought of as an ape-like goblin, the forestkith have longer arms than a normal goblin along with hand-like feet on their fur-covered body. The only features that make look remotely like goblins are the facial features upon these hairy creatures.
+    </string>
+    <string name="forestkith_society">
+        These green apes prefer thick forests and jungles to use their impressive climbing abilities to their own advantage. Often seen as savages, forestkiths have no written language or sophisticated cultures. Instead, they migrate in nomadic tribes, swinging from one tree to another. How these tribes are kept in order is being able to provide food for each member and securing even more food.
+    </string>
+    <string name="forestkith_ecology">
+        This ever growing need has caused these apes to take extreme measures when it comes to fighting other races. Forestkiths have been known to wildly attack any living creature. These measures have lead their lowered numbers.
+    </string>
 </resources>

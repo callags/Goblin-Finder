@@ -34,20 +34,19 @@
 
                 <TextView
                     android:id="@+id/dekanter_intro"
-                    android:layout_width="298dp"
-                    android:layout_marginStart="20dp"
-                    android:layout_marginBottom="20dp"
-                    android:layout_gravity="center"
+                    android:layout_width="235dp"
                     android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="20dp"
                     android:text="@string/dekanter_intro"
                     android:textColor="@color/stringColor"
                     android:textSize="18sp" />
 
                 <TextView
                     android:id="@+id/dekanter_appearance"
-                    android:layout_width="401dp"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="10dp"
+                    android:layout_gravity="center"
                     android:layout_marginBottom="20dp"
                     android:text="@string/dekanter_appearance"
                     android:textColor="@color/stringColor"
@@ -57,7 +56,6 @@
                     android:id="@+id/dekanter_society"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="10dp"
                     android:layout_marginBottom="20dp"
                     android:layout_gravity="center"
                     android:text="@string/dekanter_society"
@@ -68,7 +66,6 @@
                     android:id="@+id/dekanter_ecology"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="10dp"
                     android:layout_marginBottom="20dp"
                     android:layout_gravity="center"
                     android:text="@string/dekanter_ecology"
