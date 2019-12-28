@@ -43,20 +43,29 @@
                     android:textSize="18sp" />
 
                 <TextView
-                    android:id="@+id/bakemono_appearance_pt.1"
+                    android:id="@+id/bakemono_appearance"
                     android:layout_width="wrap_content"
                     android:layout_height="251dp"
                     android:layout_gravity="center"
-                    android:text="@string/bakemono_appearance_pt.1"
+                    android:text="@string/bakemono_appearance"
                     android:textColor="@color/stringColor"
                     android:textSize="18sp" />
 
                 <TextView
-                    android:id="@+id/bakemono_appearance_pt.2"
+                    android:id="@+id/bakemono_society_pt.1"
                     android:layout_width="wrap_content"
                     android:layout_height="277dp"
                     android:layout_gravity="center"
-                    android:text="@string/bakemono_appearance_pt.2"
+                    android:text="@string/bakemono_society_pt.1"
+                    android:textColor="@color/stringColor"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/bakemono_society_pt.2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="277dp"
+                    android:layout_gravity="center"
+                    android:text="@string/bakemono_society_pt.2"
                     android:textColor="@color/stringColor"
                     android:textSize="18sp" />
 

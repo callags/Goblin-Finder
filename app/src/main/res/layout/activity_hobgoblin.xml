@@ -62,16 +62,6 @@
                     android:textColor="@color/stringColor"
                     android:textSize="18sp" />
 
-                <TextView
-                    android:id="@+id/hobgoblin_ecology"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:layout_marginBottom="20dp"
-                    android:text="@string/hobgoblin_ecology"
-                    android:textColor="@color/stringColor"
-                    android:textSize="18sp" />
-
                 <Button
                     android:id="@+id/backBtn"
                     android:layout_width="254dp"
