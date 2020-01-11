@@ -9,8 +9,8 @@
 
     <ImageView
         android:id="@+id/iv_cam"
-        android:layout_width="280dp"
-        android:layout_height="294dp"
+        android:layout_width="276dp"
+        android:layout_height="278dp"
         android:layout_marginStart="64dp"
         android:layout_marginLeft="64dp"
         android:layout_marginTop="128dp"
@@ -19,7 +19,7 @@
         app:layout_constraintHorizontal_bias="0.014"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/ic_launcher_foreground" />
+        app:srcCompat="@drawable/goblin_sherlock" />
 
     <Button
         android:id="@+id/btn_cam"
@@ -28,9 +28,9 @@
         android:layout_marginStart="136dp"
         android:layout_marginLeft="136dp"
         android:layout_marginTop="92dp"
+        android:background="@color/btnColor"
         android:onClick="captureImage"
         android:text="Capture"
-        android:background="@color/btnColor"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -38,5 +38,19 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/iv_cam"
         app:layout_constraintVertical_bias="0.078" />
+
+    <TextView
+        android:id="@+id/main_intro"
+        android:layout_width="370dp"
+        android:layout_height="32dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="52dp"
+        android:text="@string/main_intro"
+        android:textColor="@color/stringColor"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
