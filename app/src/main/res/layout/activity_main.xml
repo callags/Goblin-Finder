@@ -1,56 +1,69 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/background"
-    tools:context=".MainActivity">
+    tools:context="com.something.goblinfinder.MainActivity">
 
-    <ImageView
-        android:id="@+id/iv_cam"
-        android:layout_width="276dp"
-        android:layout_height="278dp"
-        android:layout_marginStart="64dp"
-        android:layout_marginLeft="64dp"
-        android:layout_marginTop="128dp"
-        android:background="@color/pictureHolderColor"
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.014"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/goblin_sherlock" />
+        app:layout_constraintTop_toTopOf="parent">
 
-    <Button
-        android:id="@+id/btn_cam"
-        android:layout_width="138dp"
-        android:layout_height="90dp"
-        android:layout_marginStart="136dp"
-        android:layout_marginLeft="136dp"
-        android:layout_marginTop="92dp"
-        android:background="@color/btnColor"
-        android:onClick="captureImage"
-        android:text="Capture"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/iv_cam"
-        app:layout_constraintVertical_bias="0.078" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/main_intro"
-        android:layout_width="370dp"
-        android:layout_height="32dp"
-        android:layout_gravity="center"
-        android:layout_marginTop="52dp"
-        android:text="@string/main_intro"
-        android:textColor="@color/stringColor"
-        android:textSize="24sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.488"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:id="@+id/main_intro"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="52dp"
+                android:text="@string/main_intro"
+                android:textColor="@color/stringColor"
+                android:textSize="24sp" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+            <ImageView
+                android:id="@+id/iv_cam"
+                android:layout_width="match_parent"
+                android:layout_height="206dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="12dp"
+                app:srcCompat="@drawable/goblin_sherlock_icon" />
+
+            <Button
+                android:id="@+id/btn_cam"
+                android:layout_width="138dp"
+                android:layout_height="90dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@color/btnColor"
+                android:onClick="captureImage"
+                android:text="Capture"
+                android:textSize="24sp" />
+
+
+            <com.google.android.gms.ads.AdView
+                xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/adView"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="100dp"
+                ads:adSize="SMART_BANNER"
+                ads:adUnitId="@string/admob_banner_ad">
+            </com.google.android.gms.ads.AdView>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

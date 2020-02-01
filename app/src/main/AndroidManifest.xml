@@ -1,33 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.goblinfinder">
-
+    package="com.something.goblinfinder">
     <uses-permission android:name="android.permission.CAMERA" />
 
     <application
+
         android:allowBackup="true"
-        android:icon="@mipmap/goblin_sherlock"
+        android:icon="@mipmap/goblin_sherlock_icon_hdpi"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/goblin_sherlock_icon"
+        android:roundIcon="@mipmap/goblin_sherlock_icon_hdpi"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".forestkith"></activity>
-        <activity android:name=".worghest" />
-        <activity android:name=".verdan" />
-        <activity android:name=".koalinth" />
-        <activity android:name=".bugbear" />
-        <activity android:name=".hobgoblin" />
-        <activity android:name=".nilbog" />
-        <activity android:name=".dekanter" />
-        <activity android:name=".batiri" />
-        <activity android:name=".bakemono" />
-        <activity android:name=".MainActivity">
+        <activity android:name="com.something.goblinfinder.forestkith"></activity>
+        <activity android:name="com.something.goblinfinder.worghest" />
+        <activity android:name="com.something.goblinfinder.verdan" />
+        <activity android:name="com.something.goblinfinder.koalinth" />
+        <activity android:name="com.something.goblinfinder.bugbear" />
+        <activity android:name="com.something.goblinfinder.hobgoblin" />
+        <activity android:name="com.something.goblinfinder.nilbog" />
+        <activity android:name="com.something.goblinfinder.dekanter" />
+        <activity android:name="com.something.goblinfinder.batiri" />
+        <activity android:name="com.something.goblinfinder.bakemono" />
+        <activity android:name="com.something.goblinfinder.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="@string/admob_app_id"/>
     </application>
 
 </manifest>

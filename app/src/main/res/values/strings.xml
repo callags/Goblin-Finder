@@ -53,7 +53,7 @@
     </string>
     <string name="bugbear_intro">You have found a Bugbear!</string>
     <string name="bugbear_appearance">
-        Most adventurers will often mistake these beasts as a wolverine, instead of a goblin. Draped with fur from head to toe with a massive frame, claws for hands and standing at an average height of 7ft tall, the Bugbear is not a beast you don’t want to make angry. While you could easily outsmart these dim-witted creatures in a game of chess, fighting a Bugbear should only be attempted the most courageous, or suicidal, of your party.
+        Most adventurers will often mistake these beasts as a wolverine, instead of a goblin. Draped with fur from head to toe with a massive frame, claws for hands and standing at an average height of 7ft tall, the Bugbear is not a beast you want to make angry. While you could easily outsmart these dim-witted creatures in a game of chess, fighting a Bugbear should only be attempted the most courageous, or suicidal, of your party.
     </string>
     <string name="bugbear_society">
         Violent tempers and a disregard for diplomacy makes reasoning with them a lost cause. They will often be in tribes made up of goblins, since a party of primarily Hobgoblins and Bugbears are often killed by other factions as a general precaution. Although there are some smaller independent Bugbear tribes out in the wild, most have come to their senses that staying with goblins is safer for their race as a whole.
@@ -99,6 +99,12 @@
         To satisfy this unspoken precedence, these apes will take to extreme measures when it comes to fighting other races. Forestkiths have been known to wildly attack any living creature, which, over time, has led to their lowered numbers.
     </string>
     <string name="main_intro">
-        Take a picture to find the goblins!
+        Take a picture to find goblins!
+    </string>
+    <string name="admob_app_id">
+        ca-app-pub-4436389623392416~1852086571
+    </string>
+    <string name="admob_banner_ad">
+       ca-app-pub-4436389623392416/7519346222
     </string>
 </resources>
